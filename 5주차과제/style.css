@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/*타이틀*/
+#mainTitle{text-align:center; color:#3F0099; font-size:50px; margin-bottom:5px; }
+
+#subTitle{text-align:center; color:#8041D9; font-size:20px; margin-top:5px;}
+
+/*상단메뉴바*/
+#divTopMenu{text-align:center; color:#3F0099; font-size:20px; 
+font-weight:bolder;
+/*border-top: 2px solid #3F0099;*/
+border-bottom: 2px solid #3F0099;
+padding:10px;
+
+         }
+     
+#liTop{display:inline;
+     float:center;
+     padding:0px 20px 0px 20px;
+     margin: 5px 0px 5px 0px; 
+     }
+
+li  a:link {text-decoration: none;}
+
+li a:hover:not(.active) {
+	background-color: #3F0099;
+    color: white;
+    text-decoration: none;
+}
+
+/*왼쪽메뉴바*/
+#divLeft{color:#3F0099; 
+font-size:17px; 
+font-weight:bolder;
+         height: 400px;
+         padding:10px 0px 10px 0px;
+         position :relative; 
+         float:left; 
+         border-right: 3px dashed #3F0099;
+         
+         }
+         
+#liLeft{list-style-type:none;
+     float:center;
+     padding:0px 10px 0px 10px;
+     margin: 30px 0px 30px 0px; }
+     
+
+     
+/*상단메뉴바 밑 작은공간*/
+     
+#content{margin:10px 0px 10px 9px; height:70%; }
+
+/*메인내용*/
+#contentMainTitle{text-align:left; color:#6324BD; font-size:30px;  margin-bottom:5px; }
+
+#contentSubTitle{text-align:left; color:#8041D9; font-size:15px; margin-left:5px; margin-top:5px; }
+
+#divContent {float:left; position:relative; 
+       padding:30px;  }
+       
+
+
+/*하단메뉴바*/
+footer{clear:both;  padding:10px;}
+
+#divBottomMenu{text-align:center; color:#8E7FA5; font-size:13px; 
+font-weight:bolder;
+border-top: 2px solid #3F0099;
+padding:5px
+         }
+         
+#liBottom{display:inline;
+     border-right: 1px solid #8E7FA5;
+     
+     float:left;
+     padding:0px 20px 0px 20px;
+     margin: 5px 0px 5px 0px; }
