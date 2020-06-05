@@ -40,7 +40,7 @@
 
 <tr>
 <td>내용</td>
-<td height="170px"><input type ="text" name ="content" id ="content"></td>
+<td height="170px"><textarea type ="text" name ="content" id ="content"></textarea></td>
 </tr>
 
 <tr>
